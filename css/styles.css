@@ -4,13 +4,34 @@ body {
     color: #434455;
     font-size: 16px;
 }
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
 a {
 text-decoration: none;
 color: #2E2F42
 }
+
+img {
+    display: block;
+}
+
+.container {
+width: 1440px;
+}
+
 .address{
     font-style: normal;
 }
+
 .my-info{
     font-family: var(--font-family);
         font-weight: 400;
@@ -20,12 +41,11 @@ color: #2E2F42
         letter-spacing: 0.02em;
         color: #434455;
 }
+
 .my-info:hover, .my-info:focus {
     color: #404bbf;
 }
-ul {
-    list-style-type: none;
-}
+
 .logo{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -37,9 +57,11 @@ ul {
         text-transform: uppercase;
         color: #4D5AE5;
 }
+
 .logo1{
 color: #2E2F42;
 }
+
 .nav {
     font-family: var(--font-family);
         font-weight: 500;
@@ -49,13 +71,16 @@ color: #2E2F42;
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
+
 .nav:hover, .nav:focus{
     color: #404bbf;
 }
+
 .section-one {
     background-color: #2E2F42;
 
 }
+
 .title{
     font-family: var(--font-family);
         font-weight: 700;
@@ -67,6 +92,7 @@ color: #2E2F42;
         text-align: center;
         color: #FFFFFF;
 }
+
 .order-service{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -76,9 +102,11 @@ color: #2E2F42;
     color: #FFFFFF;
     cursor: pointer;
 }
+
 .order-service:hover, .order-service:focus{
     background-color: #404BBF;
 }
+
 .benefits-title{
     font-family: var(--font-family);
         font-weight: 500;
@@ -89,24 +117,25 @@ color: #2E2F42;
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
+
 .benefits-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .team-title{
     font-family: var(--font-family);
         font-weight: 700;
         font-size: 36px;
         text-transform: capitalize;
-    
-        /* line-height: 40px; */
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
 }
+
 .team{
     background-color: #FFFFFF;
 
@@ -120,11 +149,14 @@ color: #2E2F42;
     background-color: #2E2F42;
 
 }
+
 .footer-logo{
     color: #F4F4FD;
 }
+
 .footer-text{
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
