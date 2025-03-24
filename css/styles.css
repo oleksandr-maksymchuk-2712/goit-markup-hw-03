@@ -97,7 +97,9 @@ justify-content: space-around;
 
 .section-one {
     background-color: #2E2F42;
-
+text-align: center;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 .title{
@@ -106,11 +108,15 @@ justify-content: space-around;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        text-align: center;
+        align-items: center;
         color: #FFFFFF;
+        width: 496px;
+        margin-left: 472px;
+        margin-right: 472px;
+        padding-bottom: 48px;
 }
 
-.order-service{
+.btn{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
@@ -119,10 +125,23 @@ justify-content: space-around;
     color: #FFFFFF;
     cursor: pointer;
     padding: 16px 32px;
+    /* align-items: center; */
 }
 
-.order-service:hover, .order-service:focus{
+.btn:hover, .order-service:focus{
     background-color: #404BBF;
+}
+
+/* Section Two */
+
+.section-two-list{
+    display: flex;
+    margin: 120px 156px;
+    gap: 24px;
+}
+
+.section-two-item{
+    width: 264px;
 }
 
 .benefits-title{
@@ -132,13 +151,7 @@ justify-content: space-around;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
-}
-
-.benefits-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+        padding-bottom: 8px;
 }
 
 .team-title{
@@ -152,19 +165,95 @@ justify-content: space-around;
         color: #2E2F42;
 }
 
-.team{
-    background-color: #FFFFFF;
+/* Section three */
 
+.section-three-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.section-three-title{
+        font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 36px;
+            text-transform: capitalize;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #2E2F42;
+            padding-top: 120px;
+            padding-bottom: 72px;
+}
+
+.section-three-photo{
+    margin-bottom: 32px;
+}
+.section-three-team{
+    background-color: #FFFFFF;
+    text-align: center;
 }
 
 .section-three{
     background: #F4F4FD;
 }
 
+.section-three-text{
+    padding-bottom: 32px;
+}
+
+/* Section Four */
+
+.section-four{
+padding: 120px 156px;
+}
+
+.section-four-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.section-four-photo{
+    padding-bottom: 32px;
+}
+
+.section-four-title{
+        font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 36px;
+            text-transform: capitalize;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #2E2F42;
+            padding-bottom: 72px;
+}
+
+.section-four-product{
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        padding-bottom: 8px;
+            padding-left: 16px;
+}
+
+.section-four-text{
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+
+/* Footer */
+
 .footer{
     background-color: #2E2F42;
 
 }
+
 
 .footer-logo{
     color: #F4F4FD;
