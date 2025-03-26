@@ -39,19 +39,18 @@ padding: 0 15px;
 
 .header-header{
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
+align-items: center;
 }
+
 .header-box{
     display: flex;
     align-items: center;
-    /* margin: 24px 0; */
-
 }
 
 .header-list{
     display: flex;
     gap: 40px;
-    margin: 24px 0;
 }
 
 .logo {
@@ -70,20 +69,21 @@ justify-content: space-around;
 }
 
 .nav {
-    font-family: var(--font-family);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0;
+    display: block;
 }
 
 .my-info{
-    font-family: var(--font-family);
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding: 24px 0;
+        display: block;
 }
 
 .my-info:hover, .my-info:focus {
@@ -110,7 +110,6 @@ padding-bottom: 188px;
 }
 
 .title{
-    font-family: var(--font-family);
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -119,11 +118,11 @@ padding-bottom: 188px;
         color: #FFFFFF;
         max-width: 496px;
         margin: 0 auto;
-        padding-bottom: 48px;
+        margin-bottom: 48px;
+
 }
 
 .btn{
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -155,17 +154,23 @@ padding-bottom: 188px;
 }
 
 .section-two-item{
-    width: 264px;
+    width: calc(100% - 72px  / 4);
 }
 
 .benefits-title{
-    font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
         margin-bottom: 8px;
+}
+
+.benefits-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .visually-hidden {
@@ -192,12 +197,9 @@ padding-bottom: 188px;
 .section-three-list{
     display: flex;
     gap: 24px;
-    justify-content: center;
-    padding-bottom: 120px;
 }
 
 .section-three-title{
-        font-family: var(--font-family);
             font-weight: 700;
             font-size: 36px;
             text-transform: capitalize;
@@ -215,7 +217,7 @@ padding-bottom: 188px;
     text-align: center;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
+    width: calc(100% - 72px / 4);
 }
 
 .team-box{
@@ -223,7 +225,6 @@ padding: 32px 0;
 }
 
 .team-title{
-    font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -234,6 +235,11 @@ padding: 32px 0;
 }
 
 .section-three-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -253,6 +259,7 @@ padding-bottom: 120px;
 .section-four-cards{
 /* border: 1px solid #e7e9fc;
     width: 360px; */
+width: calc(100% - 144 px / 6);
 }
 
 .section-four-photo{
@@ -266,7 +273,6 @@ border-top: none;
 }
 
 .section-four-title{
-        font-family: var(--font-family);
             font-weight: 700;
             font-size: 36px;
             text-transform: capitalize;
@@ -278,7 +284,6 @@ border-top: none;
 }
 
 .section-four-product{
-    font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -289,8 +294,10 @@ border-top: none;
 }
 
 .section-four-text{
-    /* padding-bottom: 32px;
-    padding-left: 16px; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -309,7 +316,6 @@ border-top: none;
         text-transform: uppercase;
         color: #4D5AE5;
         display: inline-block;
-        margin-right: 76px;
         margin-bottom: 16px;
 }
 
