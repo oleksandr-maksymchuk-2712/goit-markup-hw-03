@@ -26,10 +26,16 @@ img {
 }
 
 .container {
-width: 1440px;
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
 }
 
 /* HEADER */
+
+.header{
+    border-bottom: 1px solid #e7e9fc
+}
 
 .header-header{
 display: flex;
@@ -56,11 +62,11 @@ justify-content: space-around;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px
 }
 
 .logo1 {
     color: #2E2F42;
-    padding-right: 76px;
 }
 
 .nav {
@@ -110,9 +116,8 @@ padding-bottom: 188px;
         letter-spacing: 0.02em;
         align-items: center;
         color: #FFFFFF;
-        width: 496px;
-        margin-left: 472px;
-        margin-right: 472px;
+        max-width: 496px;
+        margin: 0 auto;
         padding-bottom: 48px;
 }
 
@@ -121,12 +126,17 @@ padding-bottom: 188px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     background-color: #4D5AE5;
-    color: #FFFFFF;
-    cursor: pointer;
-    padding: 16px 32px;
     border-radius: 4px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
 }
 
 .btn:hover, .order-service:focus{
@@ -155,15 +165,18 @@ padding-bottom: 188px;
         padding-bottom: 8px;
 }
 
-.team-title{
-    font-family: var(--font-family);
-        font-weight: 700;
-        font-size: 36px;
-        text-transform: capitalize;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2E2F42;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* Section three */
